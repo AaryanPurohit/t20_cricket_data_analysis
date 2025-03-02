@@ -132,6 +132,7 @@ Players are evaluated across five roles: **Openers**, **Middle Order**, **Finish
 
 This README provides a structured, detailed guide to your project. Adjust links, filenames, and sections to match your repository! 🏆
 
-🔗 Connect
-GitHub | LinkedIn 
+## 🔗 Connect 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/AaryanPurohit)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/aaryan-purohit-05804a199/)  
 
