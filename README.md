@@ -75,17 +75,11 @@ Players are evaluated across five roles: **Openers**, **Middle Order**, **Finish
     - Projected **180+ average score**.  
     - Ability to defend **150 runs**.  
 
---- 
-
-This workflow ensures a systematic approach from raw data to actionable insights! 🏏  
-
----
-
 
 ---
 
 ## 🛠️ Technologies Used  
-- **Data Collection**: Python (BeautifulSoup, Requests)  
+- **Data Collection**: Python (BeautifulSoup, Scrapy)  
 - **Preprocessing**: Jupyter Notebook, Pandas, Power Query, SQL  
 - **Analysis & Visualization**: Power BI, DAX  
 - **Version Control**: Git, GitHub  
@@ -115,13 +109,6 @@ This workflow ensures a systematic approach from raw data to actionable insights
   - Auto-calculates projected team averages.  
 
 ---
-
-## 🔑 Key DAX Queries  
-### Batting Metrics  
-```dax
-Total Runs = SUM(fact_batting_summary[runs])  
-Strike Rate = DIVIDE([Total Runs], [Total Balls Faced], 0) * 100  
-Boundary % = DIVIDE(SUM(fact_batting_summary[Boundary runs]), [Total Runs], 0)
 
 
 This README provides a structured, detailed guide to your project. Adjust links, filenames, and sections to match your repository! 🏆
