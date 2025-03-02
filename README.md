@@ -13,12 +13,16 @@ Players are evaluated across five roles: **Openers**, **Middle Order**, **Finish
 
 ---
 
-## ⭐ Features  
-- **Interactive Power BI Dashboard** with dynamic filters and visualizations.  
-- **Role-Specific Player Evaluation** using predefined performance thresholds.  
-- **Real-Time Projections** for team scoring/defending capabilities.  
-- **Drag-and-Drop Team Builder** to assemble the final 11.  
-- **Custom Alerts** for underperforming players.  
+## ⭐ Features   
+- **Interactive Power BI Dashboard**: Explore players using dynamic filters and visualizations like scatter plots, heatmaps, and radar charts.  
+- **Role-Specific Player Evaluation**: Assess players for 5 roles with predefined parameters:  
+  - **Openers**: Batting Avg >30, Strike Rate >140, Boundary % >50  
+  - **Middle Order**: Batting Avg >40, Strike Rate >125, Avg. Balls Faced >20  
+  - **Finishers**: Batting Avg >25, Strike Rate >130, Batting Position >4  
+  - **All-Rounders**: Batting Avg >15, Strike Rate >140, Bowling Economy <7  
+  - **Specialist Fast Bowlers**: Economy ≤7, Dot Ball % >40, Innings Bowled >4  
+- **Real-Time Projections**: Instantly calculates team's projected average score (180+ runs) and defense capability (150 runs).  
+- **Drag-and-Drop Team Builder**: Visually assemble your final 11 by selecting top performers from each role.  
 
 ---
 
