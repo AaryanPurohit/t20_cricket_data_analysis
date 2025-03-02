@@ -97,16 +97,35 @@ Players are evaluated across five roles: **Openers**, **Middle Order**, **Finish
 
 ---
 
-## 📈 Dashboard Features  
-- **Interactive Visualizations**:  
-  - Scatter plots (Strike Rate vs. Economy).  
-  - Radar charts for bowler performance.  
-  - Heatmaps for boundary and dot ball analysis.  
-- **Dynamic Filters**:  
-  - Filter by team, role, tournament stage, or venue.  
-- **Team Builder**:  
-  - Drag-and-drop interface to assemble the final 11.  
-  - Auto-calculates projected team averages.  
+## 📈 Dashboard Images 
+
+**Power Hitters/ Openers**
+![image](https://github.com/user-attachments/assets/a7719d9c-119e-404f-a48d-f01327c3ed84)
+
+**Combined performance of Virat Kohli and Suryakumar Yadav as an anchor**
+
+![image](https://github.com/user-attachments/assets/22b6ea8e-b34b-47e7-a1d9-628056f6cd35)
+
+**Finisher**
+
+![image](https://github.com/user-attachments/assets/7bd2859a-0424-4408-a8af-5acc763a7ff9)
+
+**All Rounders**
+
+![image](https://github.com/user-attachments/assets/f62e48e9-0051-41ae-9dd8-54714162777e)
+
+**Combined performance of Sam Curran and Shaheen Afridi as a Specialist Fast Bowlers**
+
+![image](https://github.com/user-attachments/assets/1ba1dae7-52fb-41f3-935a-1f6be8210cd6)
+
+
+
+**Final 11**
+![image](https://github.com/user-attachments/assets/8717c23f-0e60-4926-9bc1-812253006b9d)
+
+
+
+
 
 ---
 
