@@ -27,18 +27,57 @@ Players are evaluated across five roles: **Openers**, **Middle Order**, **Finish
 ---
 
 ## 🚀 Steps to Build the Project  
-1. **Data Collection**:  
-   - Web-scraped raw T20 data using Python scripts.  
-   - Stored data in JSON format.  
-2. **Preprocessing**:  
-   - Converted JSON to CSV and cleaned data using Pandas/Power Query.  
-   - Applied SQL for filtering and aggregation.  
-3. **Dashboard Development**:  
-   - Built interactive visuals in Power BI (charts, matrices, heatmaps).  
-   - Integrated DAX formulas for dynamic metrics.  
-4. **Team Selection**:  
-   - Shortlisted top players using role-specific criteria.  
-   - Curated a balanced squad using the Team Builder panel.  
+
+### 1. **Data Collection**  
+- **Web Scraping**:  
+  - Collected raw T20 data (batting, bowling, match results) from **ESPN Cricinfo** using Python libraries:  
+    - `Beautiful Soup` for parsing HTML.  
+    - `Scrapy` for structured data extraction.  
+  - Stored scraped data in **JSON format** for initial processing.  
+
+### 2. **Data Preprocessing**  
+- **Cleaning & Structuring**:  
+  - Converted JSON files to structured **CSV datasets** using `pandas` and `numpy`.  
+  - Removed irrelevant columns, fixed formatting errors, and standardized player/match IDs.  
+  - Processed three key datasets:  
+    - `Batting Summary` (runs, strike rate, boundaries).  
+    - `Bowling Summary` (economy, wickets, dot balls).  
+    - `Match Results` (team scores, venues, dates).  
+  - Linked files using SQL for consistency (e.g., joining player IDs across tables).  
+
+- **Filtering & Aggregation**:  
+  - Applied **SQL queries** to filter players with sufficient innings (e.g., `SELECT * FROM players WHERE innings > 5`).  
+  - Aggregated metrics like average runs, strike rate, and economy.  
+  - Final output: Cleaned CSV files ready for analysis.  
+
+### 3. **Dashboard Development**  
+- **Power BI Setup**:  
+  - Loaded CSV files into **Power BI** and refined data using **Power Query**:  
+    - Added calculated columns (e.g., `Boundary %`, `Dot Ball %`).  
+    - Merged tables for cross-metric analysis.  
+  - **DAX Implementation**:  
+    - Created metrics like `Batting Avg`, `Bowling Strike Rate`, and `Player Selection` flags.  
+    - Example:  
+      ```dax  
+      Batting Avg = DIVIDE([Total Runs], [Total Innings Dismissed], 0)  
+      ```  
+  - **Visualizations**:  
+    - Built interactive charts (bar, scatter), matrices, and heatmaps.  
+    - Designed role-specific tabs for Openers, Middle Order, etc.  
+
+### 4. **Team Selection**  
+- **Role-Specific Shortlisting**:  
+  - Applied criteria from `Parameter Scoping.pdf` (e.g., Openers: `Strike Rate > 140`).  
+  - Filtered top performers using Power BI slicers and SQL-backed metrics.  
+- **Team Builder Panel**:  
+  - Assembled the final 11 using a drag-and-drop interface.  
+  - Validated team balance against goals:  
+    - Projected **180+ average score**.  
+    - Ability to defend **150 runs**.  
+
+--- 
+
+This workflow ensures a systematic approach from raw data to actionable insights! 🏏  
 
 ---
 
